@@ -119,7 +119,7 @@ class Exercises_01_Data_types {
    * [you should end up with 1 statement]
    */
   void ex11_string_literal() {
-
+    
   }
 
   /* Exercise 12

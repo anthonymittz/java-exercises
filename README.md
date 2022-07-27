@@ -3,6 +3,10 @@
 A set of exercises to practice Java programming language concepts.  
 It gradually takes you from the beginner-friendly basics to the more advanced topics.
 
+### [Go to exercises](https://github.com/anthonymittz/java-exercises/blob/main/Exercises.md)
+
+### [Need assistance?](https://github.com/anthonymittz/java-exercises/blob/main/Assistance.md)
+
 ### Table of contents
 
 1.  Basics
