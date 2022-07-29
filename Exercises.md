@@ -19,89 +19,83 @@
 
 ### Exercise 01. Declaration of primitives
 
-Declare a variable for each of the 8 primitive data types,
-without actually initializing them with values.  
+Declare variables to hold each of the 8 primitive data types, but do not initialize them to values.  
 <sub>(you should end up with 8 statements)</sub>
 
 ### Exercise 02. Integer initialization
 
-For each of the 4 primitive data types used to store integer numbers,
-declare two variables without any initialization.
-Using another statements, separate from declaration statements,
-initialize one to the smallest value possible,
-and the other - to the largest value possible.  
+For each of the 4 primitive data types used to store integer numbers:  
+declare two uninitialized variables; using other statements, initialize the former to the smallest value possible, and the latter - to the largest value possible.  
 <sub>(you should end up with 16 statements)</sub>
 
 ### Exercise 03. Fractional initialization
 
-For each of the 2 primitive data types used to store fractional numbers,
-declare a variable without initialization.
-Using another statement, initialize each of the variables to some value.  
+For each of the 2 primitive data types used to store fractional numbers:  
+declare an uninitialized variable; using another statement, initialize it to some value.  
 <sub>(you should end up with 4 statements)</sub>
 
 ### Exercise 04. Letters and truth
 
-For the primitive data type used to store characters,
-declare two variables without intialization.
-Using another statements, initialize each of the variables:
+For the primitive data type used to store characters:  
+declare two uninitialized variables; using other statements, initialize:
 
-- one to `0x4F`, but using the "character literal" notation.
-- another to `k`, but using the hexadecimal value.
+- the former to `0x4F`, but using the character literal notation.
+- the latter to `k`, but using the hexadecimal value.
 
 <sub>(you should end up with 4 statements)</sub>
 
 ### Exercise 05. Value the truth
 
-For the primitive data type used to store truth values,
-declare two variables without initialization.
-Using another statements, intitialize them to 2 possible values (1 for each varialbe).
-Then, reassign each of the two variables to the complimentary value.  
+For the primitive data type used to store truth values:  
+declare two uninitialized variables;  
+using other statements, intitialize them to the two _truth values_ of logic.
+then, reassign each of them to the complimentary value.  
 <sub>(you should end up with 6 statements)</sub>
 
 ### Exercise 06. Array declaration
 
-For each of the 8 primitive data types, declare a variable which can be used
-to point to a non-primitive collection of primitive variables.
-Don't yet initialize (assign) / allocate any collections on the heap.  
+For each of the 8 primitive data types:  
+declare a variable which can be used to point to a collection of values of that type;
+don't yet initialize the collections; don't allocate collection objects on the heap.  
 <sub>(you should end up with 8 statements)</sub>
 
 ### Exercise 07. Array allocation & element initialization
 
-For each of the 8 primitive data types, declare a variable which can be used
-to point to a non-primitive collection of primitive variables.
-The next step is to allocate an object on the heap for each of the variables.
-Let each collection contain 2 elements.
-The next step is to initialize each element for every collection to a random value.  
+For each of the 8 primitive data types:  
+declare a variable which can be used to point to a collection of values of that type.  
+Allocate collection objects on the heap (let each collection hold 2 elements).  
+Initialize each element for every collection to a random value.  
 <sub>(you should end up with the staggering 32 statements)</sub>
 
 ### Exercise 08. Array literal
 
 Same as the previous exercise, but you are free to use a shortcut: the array literal notation.  
-<sub>(you should end up with the more feasible 8 statements)</sub>
+<sub>(you should end up with the feasible 8 statements)</sub>
 
 ### Exercise 09. String declaration
 
-Declare a variable which can be used to point to a `String` object.
-Don't intialize it / allocate any objects on the heap.  
+Declare a variable which can hold a reference to a `String` object;  
+don't intialize it; don't allocate any objects on the heap.  
 <sub>(you should end up with a single statement)</sub>
 
 ### Exercise 10. String allocation & initialization
 
-Declare a variable which can be used to point to a `String` object.
-Allocate a new `String` object on the heap, give it a value `foo`,
-and assign its address to the variable.  
+Declare a variable which can hold a reference to a `String` object;  
+allocate a new `String` object on the heap and give it a value: `super`;  
+make the variable hold the referece to that object.  
 <sub>(you should end up with 2 statements)</sub>
 
 ### Exercise 11. String literal
 
-Declare a variable with the type `String` using the string literal notation. Initialize it to a value `bar`.  
+Declare a variable with the type `String` using the string literal notation;  
+initialize it to a value: `nova`.  
 <sub>(you should end up with a single statement)</sub>
 
 ### Exercise 12. Cats and dogs
 
-Declare a variable with a type String.  
-Initialize it to `Dogs are cool`.  
-Change the value of the variable to `But cats are coolers.`
+Declare a variable with a type `String`;  
+initialize it to: `Dogs are cool.`;  
+using reassignment, change it to: `But cats are coolers.`.
 
 ## Section 02. Input and Output
 
@@ -111,8 +105,8 @@ Simply print in the console: `Hello, world!`.
 
 ### Exercise 2. Print string value
 
-Initialize a variable of a type `String` to a value `gobbledygook`.
-Print the value of the variable in the console.
+Initialize a variable of a type `String` to a value `gobbledygook`;  
+print the `char[12]` that the `String` object now holds to the console.
 
 ### Exercise 3. Concatenate!
 
@@ -122,8 +116,8 @@ using only a single `println()` method invocation.
 
 ### Exercise 4. Divide and conquer
 
-Initialize 2 variables of type `String`, to values: `Hakuna` and `Matata`.
-Print a whole sentence to the console using only a single `println()` method invocation.  
+Initialize 2 variables of type `String`, to values: `Hakuna` and `Matata`;  
+print a whole sentence to the console using only a single `println()` method invocation.  
 <sub>Use concatenation and String literal to separate the words with a white space.</sub>
 
 ### Exercise 5. No escape!
@@ -136,8 +130,8 @@ No concatenation allowed this time!
 ### Exercise 6. Table alignment
 
 Print the values of 3 strings initialized to: `127 15 2`, `1, 7, 148`, `12, 487, 95`
-using 3 `println()` method invocations. Align the numbers in columns using tabulation.
-Modify the values of the variables if necessary.
+using 3 `println()` method invocations; align the numbers in columns using tabulation;  
+modify the values of the variables if necessary.
 The result should look like a borderless table:
 
 ```
@@ -148,9 +142,9 @@ The result should look like a borderless table:
 
 ### Exercise 7. Back to the basics
 
-Declare a variable for each of the 6 numeric primitive data types (integer and fractional numbers).  
-Initialize each of them to a random value.  
-Print to the console the following pattern for each variable:  
+Declare a variable for each of the 6 numeric primitive data types (integer and fractional numbers);  
+initialize each of them to a random value;  
+print to the console the following pattern for each variable:  
 `variable: myInteger | type: int | size: 4 bytes/32 bits | value: 156`
 
 ### Exercise 8. Format and converters
@@ -160,7 +154,6 @@ one should contain 12 months names;
 the other should contain a number of days in a month for each month;
 the last one should contain an average monthly temperatures usual for the climate of your region.
 The temperatures should be expressed as decimals with the precision 1, e.g.: `24.7`
-Assume that it is _not_ a leap year, thus no 29th of February.
 
 Print a table that contains 3 columns: month, number of days, average temperature.
 Align the output using `System.out.format()` method and appropriate converters.

@@ -1,5 +1,8 @@
 # Java Exercises
 
+> :warning: **NOTE: This repo is a work _in progress_.**  
+>  Feel free to leave suggestions and point out any errors/inconsistencies. Thank you!
+
 A set of exercises to practice Java programming language concepts.  
 It gradually takes you from the beginner-friendly basics to the more advanced topics.
 
