@@ -2,7 +2,7 @@
 
 ### Table of contents
 
-**[Part 1. Basics.](#part-1-basics)**
+**[Part 1. Basics](#part-1-basics)**
 
 1. [Data types](#section-01-data-types)
 2. [I/O: Input and Output](#section-02-input-and-output)
@@ -12,8 +12,19 @@
 6. [Conditional operators](#section-06-conditional-operators)
 7. [Type comparison operator](#section-07-type-comparison-operator)
 8. [Bitwise and bit shift operators](#section-08-bitwise-bit-shift-operators)
+9. [Methods](#section-09-methods)
 
-# Part 1. Basics
+**[Part 2. Control Flow](#part-2-control-flow)**
+
+1. [Branching](#section-01-branching)
+2. [Recursion](#section-02-recursion)
+3. [Looping](#section-03-looping)
+
+<br><br><br>
+
+## Part 1. Basics
+
+<br><br>
 
 ## Section 01. Data types
 
@@ -96,6 +107,8 @@ initialize it to a value: `nova`.
 Declare a variable with a type `String`;  
 initialize it to: `Dogs are cool.`;  
 using reassignment, change it to: `But cats are coolers.`.
+
+<br><br>
 
 ## Section 02. Input and Output
 
@@ -204,26 +217,118 @@ use `nextInt()` instance method of the `Scanner` class.
 Print to the user both names of the same note.  
 <sub>Format the output as you like. Use the number to grab the values of array elements.</sub>
 
+<br><br>
+
 ## Section 03. Arithmetic operators
 
-> TODO: yet to be written
+> Remains to be written
 
 ## Section 04. Unary operators
 
-> TODO: yet to be written
+> Remains to be written
 
 ## Section 05. Equality relation operators
 
-> TODO: yet to be written
+> Remains to be written
 
 ## Section 06. Conditional operators
 
-> TODO: yet to be written
+> Remains to be written
 
 ## Section 07. Type comparison operator
 
-> TODO: yet to be written
+> Remains to be written
 
 ## Section 08. Bitwise bit shift operators
 
-> TODO: yet to be written
+> Remains to be written
+
+## Section 09. Methods
+
+### Exercise 01. Declaration & Definition
+
+> Remains to be written
+
+### Exercise 03. Output: `void` return (methods a.k.a procedures)
+
+> Remains to be written
+
+### Exercise 04. Output: value return (methods a.k.a functions)
+
+> Remains to be written
+
+### Exercise 05. Input: parameters (_placeholder_ variables in declaration)
+
+> Remains to be written
+
+### Exercise 06. Invocation (calling)
+
+> Remains to be written
+
+### Exercise 07. Input: arguments (_actual_ values in invocation)
+
+> Remains to be written
+
+### Exercise 08. Single parameter / argument
+
+> Remains to be written
+
+### Exercise 09. Multiple parameters / arguments
+
+> Remains to be written
+
+### Exercise 10. Passing an integer
+
+> Remains to be written
+
+### Exercise 11. Passing a double
+
+> Remains to be written
+
+### Exercise 12. Returning an integer
+
+> Remains to be written
+
+### Exercise 13. Returning a double
+
+> Remains to be written
+
+### Exercise 14. Passing an array
+
+> Remains to be written
+
+### Exercise 15. Returning an array
+
+> Remains to be written
+
+### Exercise 16. Passing a String object
+
+> Remains to be written
+
+### Exercise 17. Returning a String object
+
+> Remains to be written
+
+### Exercise 18. Passing a boolean (or refactoring into 2 functions?)
+
+> Remains to be written
+
+### Exercise 19. Returning a boolean
+
+> Remains to be written
+
+<br><br><br>
+
+# Part 2. Control Flow
+
+## Section 01. Branching
+
+> Remains to be written
+
+## Section 02. Recursion
+
+> Remains to be written
+
+## Section 03. Looping
+
+> Remains to be written

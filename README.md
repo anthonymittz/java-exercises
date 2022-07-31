@@ -28,4 +28,4 @@ It gradually takes you from the beginner-friendly basics to the more advanced to
     - getting the stdin stream
     - storing the input in a variable
 
-> Remain to be written
+> Remains to be written
