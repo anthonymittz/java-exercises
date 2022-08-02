@@ -6,9 +6,14 @@
 A set of exercises to practice Java programming language concepts.  
 It gradually takes you from the beginner-friendly basics to the more advanced topics.
 
-### [Go to exercises](https://github.com/anthonymittz/java-exercises/blob/main/Exercises.md)
+---
 
-### [Need assistance?](https://github.com/anthonymittz/java-exercises/blob/main/Assistance.md)
+- ### [Exercises →](https://github.com/anthonymittz/java-exercises/blob/main/Exercises.md)
+- ### [Assistance →](https://github.com/anthonymittz/java-exercises/blob/main/Assistance.md)
+
+---
+
+<br><br>
 
 ### Table of contents
 
@@ -19,7 +24,7 @@ It gradually takes you from the beginner-friendly basics to the more advanced to
     - variable declaration
     - variable initalization
     - class instantiation
-      (object allocation on the heap)
+    - methods: declaration, definition, invocation
 
 2.  I/O: input and output
     - printing to stdout
@@ -28,4 +33,4 @@ It gradually takes you from the beginner-friendly basics to the more advanced to
     - getting the stdin stream
     - storing the input in a variable
 
-> Remains to be written
+> 3. remains to be written...

@@ -176,22 +176,20 @@ Align the output using `System.out.format()` method and appropriate converters.
 print the following art in the console:
 
 ```
-.-----------------------------------------------------------------------------.
-||Es| |F1 |F2 |F3 |F4 |F5 | |F6 |F7 |F8 |F9 |F10|                  C= AMIGA   |
-||__| |___|___|___|___|___| |___|___|___|___|___|                             |
-| _____________________________________________     ________    ___________   |
-||~  |! |" |§ |$ |% |& |/ |( |) |= |? |` || |<-|   |Del|Help|  |{ |} |/ |* |  |
-||`__|1_|2_|3_|4_|5_|6_|7_|8_|9_|0_|ß_|´_|\_|__|   |___|____|  |[ |]_|__|__|  |
-||<-  |Q |W |E |R |T |Z |U |I |O |P |Ü |* |   ||               |7 |8 |9 |- |  |
-||->__|__|__|__|__|__|__|__|__|__|__|__|+_|_  ||               |__|__|__|__|  |
-||Ctr|oC|A |S |D |F |G |H |J |K |L |Ö |Ä |^ |<'|               |4 |5 |6 |+ |  |
-||___|_L|__|__|__|__|__|__|__|__|__|__|__|#_|__|       __      |__|__|__|__|  |
-||^    |> |Y |X |C |V |B |N |M |; |: |_ |^     |      |A |     |1 |2 |3 |E |  |
-||_____|<_|__|__|__|__|__|__|__|,_|._|-_|______|    __||_|__   |__|__|__|n |  |
-|   |Alt|A  |                       |A  |Alt|      |<-|| |->|  |0    |. |t |  |
-|   |___|___|_______________________|___|___|      |__|V_|__|  |_____|__|e_|  |
-|                                                                             |
-`-----------------------------------------------------------------------------'
+  .-----------------------------------------------------------.
+  || esc |F1 |F2 |F3 |F4 |F5 |F6 |F7 |F8 |F9 |F10|F11|F12| ◯ ||
+  ||_____|___|___|___|___|___|___|___|___|___|___|___|___|___||
+  ||±  |!  |@  |#  |$  |%  |^  |&  |*  |(  |)  |_  |+  |     ||
+  ||§__|1__|2__|3__|4__|5__|6__|7__|8__|9__|0__|-__|=__|____←||
+  ||    |Q  |W  |E  |R  |T  |Y  |U  |I  |O  |P  |{  |}  |    ||
+  ||⇥___|___|___|___|___|___|___|___|___|___|___|[__|]__|_⮐_||
+  ||°    |A  |S  |D  |F  |G  |H  |J  |K  |L  |:  |"  ||  |   ||
+  ||⇪____|___|___|___|_-_|___|___|_-_|___|___|___|___|\__|___||
+  ||    |~  |Z  |X  |C  |V  |B  |N  |M  |<  |>  |?  |        ||
+  ||⇧___|`__|___|___|___|___|___|___|___|,__|.__|/__|_______⇧||
+  ||   |    |alt|    |                  |cmd|alt|    [ ↑]    ||
+  ||fn_|ctrl|⌥__|cmd_|__________________|___|__⌥|[← ][ ↓][ →]||
+  `-----------------------------------------------------------'
 ```
 
 ### Exercise 10. What did you say?
@@ -314,6 +312,58 @@ Print to the user both names of the same note.
 > Remains to be written
 
 ### Exercise 19. Returning a boolean
+
+> Remains to be written
+
+### Exercise 20. Method as abstraction
+
+> Remains to be written
+
+### Exercise 21. Separation of concerns
+
+> Remains to be written
+
+### Exercise 22. 2 semantic levels
+
+> Remains to be written
+
+### Exercise 23. More semantic levels
+
+> Remains to be written
+
+### Exercise 24. Absolute value
+
+> Remains to be written
+
+### Exercise 25. Square the value
+
+> Remains to be written
+
+### Exercise 26. Average value
+
+> Remains to be written
+
+### Exercise 27. Branching the control flow
+
+> Remains to be written
+
+### Exercise 28. Recursion
+
+> Remains to be written
+
+### Exercise 29. Not branching the control flow
+
+> Remains to be written
+
+### Exercise 30. Almost 'for loop'
+
+> Remains to be written
+
+### Exercise 31. Calculate factorial
+
+> Remains to be written
+
+### Exercise 32. Calculate square root
 
 > Remains to be written
 
