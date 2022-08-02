@@ -166,7 +166,7 @@ Declare and initialize 3 arrays:
 one should contain 12 months names;
 the other should contain a number of days in a month for each month;
 the last one should contain an average monthly temperatures usual for the climate of your region.
-The temperatures should be expressed as decimals with the precision 1, e.g.: `24.7`
+The temperatures should be expressed as decimals with the precision `1`, e.g.: `24.7`.
 
 Print a table that contains 3 columns: month, number of days, average temperature.
 Align the output using `System.out.format()` method and appropriate converters.
